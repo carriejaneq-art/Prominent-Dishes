@@ -1,0 +1,124 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prominent Dishes in the Philippines</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #333;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background-color: rgba(219, 184, 173, 0.95);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .header-left img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-right: 15px;
+    }
+
+    .header-left h1 {
+      font-size: 1.6em;
+      color: #4b2e2e;
+      margin: 0;
+    }
+
+    .header-right a {
+      text-decoration: none;
+      background-color: #8a3b44;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      margin-left: 10px;
+      transition: all 0.3s;
+    }
+
+    .header-right a:hover {
+      background-color: #e7d7c3;
+      color: #4b2e2e;
+      transform: scale(1.05);
+    }
+
+    /* Content */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 30px;
+      padding: 60px;
+    }
+
+    video {
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .text {
+      background-color: rgba(255,255,255,0.9);
+      padding: 25px;
+      border-radius: 10px;
+      max-width: 600px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(138, 59, 68, 0.95);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-left">
+      <img src="LOGO.jpg.jpg" alt="Logo">
+      <h1>Prominent Dishes in the Philippines</h1>
+    </div>
+    <div class="header-right">
+      <a href="adobo.html">Home</a>
+      <a href="sinigang.html">About</a>
+      <a href="lechon.html">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <video controls>
+        <source src="VIDEO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="text">
+        <p>Discover the most popular and well-known foods in the Philippines. Our goal is to expand your knowledge about these foods, sharing information that highlights their importance in our culture and history.</p>
+        <p>Explore traditional Filipino dishes—from simple rice cakes to rich flavors that define our identity. Each dish has a story to tell. Join us as we celebrate our heritage through every bite.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Prominent Dishes PH | Designed with ❤️ by Titans
+  </footer>
+
+</body>
+</html>
